@@ -3,7 +3,7 @@
 
 err = 22, warn = 6, info = 0
 IG Publisher Version: 1.2.3
-Generated Mon Sep 26 19:16:23 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Mon Sep 26 19:21:57 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 22 / 1 / 1
