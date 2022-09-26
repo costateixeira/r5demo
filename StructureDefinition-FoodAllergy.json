@@ -15,12 +15,12 @@
       "valueCode": "patient"
     }
   ],
-  "url": "http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy",
+  "url": "http://example.com/fhir/example/StructureDefinition/FoodAllergy",
   "version": "1.0.0",
   "name": "FoodAllergy",
   "title": "Food Allergy",
   "status": "active",
-  "date": "2022-09-26T19:08:49+00:00",
+  "date": "2022-09-26T19:15:54+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -878,7 +878,7 @@
         "isSummary": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://example.com/fhir/example/ImplementationGuide/my-ig/ValueSet/FoodAllergyVS"
+          "valueSet": "http://example.com/fhir/example/ValueSet/FoodAllergyVS"
         },
         "mapping": [
           {
@@ -2020,7 +2020,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "http://example.com/fhir/example/ImplementationGuide/my-ig/ValueSet/FoodAllergyVS"
+          "valueSet": "http://example.com/fhir/example/ValueSet/FoodAllergyVS"
         }
       },
       {

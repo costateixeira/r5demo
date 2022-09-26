@@ -10,9 +10,9 @@
   fhir:Resource.id [ fhir:value "my-ig"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example/ImplementationGuide/my-ig</pre><div><p>Example IG exercises many of the fields in a SUSHI configuration.</p>\n</div></div>"
   ];
-  fhir:ImplementationGuide.url [ fhir:value "http://example.com/fhir/example"];
+  fhir:ImplementationGuide.url [ fhir:value "http://example.com/fhir/example/ImplementationGuide/my-ig"];
   fhir:ImplementationGuide.version [ fhir:value "1.0.0"];
   fhir:ImplementationGuide.name [ fhir:value "ExampleIG"];
   fhir:ImplementationGuide.title [ fhir:value "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"];
@@ -123,9 +123,13 @@
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PeanutAllergy" ];
        fhir:ImplementationGuide.definition.resource.profile [
-         fhir:value "http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy";
+         fhir:value "http://example.com/fhir/example/StructureDefinition/FoodAllergy";
          fhir:index 0;
-         fhir:link <http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy>
+         fhir:link <http://example.com/fhir/example/StructureDefinition/FoodAllergy>
+       ], [
+         fhir:value "http://example.com/fhir/example/StructureDefinition/FoodAllergy";
+         fhir:index 1;
+         fhir:link <http://example.com/fhir/example/StructureDefinition/FoodAllergy>
        ]
      ];
      fhir:ImplementationGuide.definition.page [
@@ -314,7 +318,7 @@
          fhir:Coding.system [ fhir:value "http://hl7.org/fhir/tools/CodeSystem/ig-parameters" ];
          fhir:Coding.code [ fhir:value "path-history" ]
        ];
-       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "history.html" ]
+       fhir:ImplementationGuide.definition.parameter.value [ fhir:value "http://example.com/fhir/example/history.html" ]
      ], [
        fhir:index 24;
        fhir:ImplementationGuide.definition.parameter.code [
