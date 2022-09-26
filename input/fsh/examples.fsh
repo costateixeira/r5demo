@@ -1,6 +1,7 @@
 Alias: $participant-type = http://terminology.hl7.org/CodeSystem/provenance-participant-type
 
 Instance:  MyPeanutAllergy
+//Name:  "PeanutAllergy"
 InstanceOf: FoodAllergy
 Title:   "PeanutAllergy"
 Usage:  #example
@@ -13,7 +14,7 @@ Usage:  #example
 * recordedDate = "2021-07-28"
 
 * participant[+]
-  * function = $participant-type#recorder
+  * function = $participant-type#enterer
   * actor.identifier.value = https://nationalregistry.ww/nationalnumber#8936584955
   * actor.display = "Daniel Davis"
 
