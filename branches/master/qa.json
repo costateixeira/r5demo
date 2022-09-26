@@ -1,11 +1,11 @@
 {
-  "url": "http://example.com/fhir/example",
+  "url": "http://example.com/fhir/example/ImplementationGuide/my-ig",
   "name": "ExampleIG",
   "package-id": "my-ig",
   "ig-ver": "1.0.0",
-  "date": "Mon, 26 Sep, 2022 19:08:49 +0000",
-  "errs": 31,
-  "warnings": 7,
+  "date": "Mon, 26 Sep, 2022 19:15:54 +0000",
+  "errs": 22,
+  "warnings": 6,
   "hints": 0,
   "version": "5.0.0-ballot",
   "tool": "5.0.0-ballot (3)"

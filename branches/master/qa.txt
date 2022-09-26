@@ -1,23 +1,20 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 31, warn = 7, info = 0
+err = 22, warn = 6, info = 0
 IG Publisher Version: 1.2.3
-Generated Mon Sep 26 19:09:16 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
- Build Errors : 0 / 2 / 0
+Generated Mon Sep 26 19:16:23 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+ Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 25 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 2 / 2 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 2 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 2 / 2 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 22 / 1 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 0 / 2 / 1
 </table>
 == n/a ==
-WARNING: ImplementationGuide.url: The canonical URL for an Implementation Guide must point directly to the implementation guide resource, not to the Implementation Guide as a whole
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
-ERROR: ImplementationGuide.where(url = 'http://example.com/fhir/example'): Conformance resource /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig.json - the canonical URL (http://example.com/fhir/example/ImplementationGuide/my-ig) does not match the URL (http://example.com/fhir/example)
-ERROR: ImplementationGuide.url: Resource id/url mismatch: my-ig/http://example.com/fhir/example
 WARNING: ImplementationGuide/my-ig: ImplementationGuide.url: Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed
 ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[0].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
 ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[1].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
@@ -41,17 +38,10 @@ ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[33].c
 ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[34].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
 ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[35].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
 ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[36].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig: URL Mismatch http://example.com/fhir/example/ImplementationGuide/my-ig vs http://example.com/fhir/example
 == fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
-ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy.json - the canonical URL (http://example.com/fhir/example/StructureDefinition/FoodAllergy) does not match the URL (http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy)
 WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[16]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
-ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy: URL Mismatch http://example.com/fhir/example/StructureDefinition/FoodAllergy vs http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy
 == fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
-ERROR: StructureDefinition.where(url = 'http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergyModel'): Conformance resource /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel.json - the canonical URL (http://example.com/fhir/example/StructureDefinition/FoodAllergyModel) does not match the URL (http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergyModel)
-ERROR: /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel: URL Mismatch http://example.com/fhir/example/StructureDefinition/FoodAllergyModel vs http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergyModel
 == fsh-generated/resources/ValueSet-FoodAllergyVS.json ==
-ERROR: ValueSet.where(url = 'http://example.com/fhir/example/ImplementationGuide/my-ig/ValueSet/FoodAllergyVS'): Conformance resource /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS.json - the canonical URL (http://example.com/fhir/example/ValueSet/FoodAllergyVS) does not match the URL (http://example.com/fhir/example/ImplementationGuide/my-ig/ValueSet/FoodAllergyVS)
 WARNING: ValueSet/FoodAllergyVS: ValueSet.url: Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed
 WARNING: ValueSet/FoodAllergyVS: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
-ERROR: /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS: URL Mismatch http://example.com/fhir/example/ValueSet/FoodAllergyVS vs http://example.com/fhir/example/ImplementationGuide/my-ig/ValueSet/FoodAllergyVS

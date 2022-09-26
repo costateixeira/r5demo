@@ -2,28 +2,28 @@
   {
     "id": "my-ig",
     "type": "ImplementationGuide",
-    "url": "http://example.com/fhir/example",
+    "url": "http://example.com/fhir/example/ImplementationGuide/my-ig",
     "version": "1.0.0",
     "name": "ExampleIG"
   },
   {
     "id": "FoodAllergy",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy",
+    "url": "http://example.com/fhir/example/StructureDefinition/FoodAllergy",
     "version": "1.0.0",
     "name": "FoodAllergy"
   },
   {
     "id": "FoodAllergyModel",
     "type": "StructureDefinition",
-    "url": "http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergyModel",
+    "url": "http://example.com/fhir/example/StructureDefinition/FoodAllergyModel",
     "version": "1.0.0",
     "name": "FoodAllergyModel"
   },
   {
     "id": "FoodAllergyVS",
     "type": "ValueSet",
-    "url": "http://example.com/fhir/example/ImplementationGuide/my-ig/ValueSet/FoodAllergyVS",
+    "url": "http://example.com/fhir/example/ValueSet/FoodAllergyVS",
     "version": "1.0.0",
     "name": "FoodAllergyVS"
   }
