@@ -1,12 +1,12 @@
 {
-  "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-  "name": "XXYourComputableMyIGNameHere",
-  "package-id": "xxexample.fhir.uv.myig",
-  "ig-ver": "0.1.0-test",
-  "date": "Mon, 26 Sep, 2022 18:50:22 +0000",
-  "errs": 11,
-  "warnings": 18,
+  "url": "http://example.com/fhir/example",
+  "name": "ExampleIG",
+  "package-id": "my-ig",
+  "ig-ver": "1.0.0",
+  "date": "Mon, 26 Sep, 2022 19:08:49 +0000",
+  "errs": 31,
+  "warnings": 7,
   "hints": 0,
-  "version": "4.0.1",
+  "version": "5.0.0-ballot",
   "tool": "5.0.0-ballot (3)"
 }
