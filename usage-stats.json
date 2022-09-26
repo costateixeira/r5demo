@@ -1,13 +1,13 @@
 {
-  "package": "xxexample.fhir.uv.myig",
-  "version": "0.1.0-test",
-  "fhirVersion": "4.0.1",
+  "package": "my-ig",
+  "version": "1.0.0",
+  "fhirVersion": "5.0.0-ballot",
   "jurisdiction": "001",
   "extensions": [],
   "profiles": {
     "AllergyIntolerance": [
       {
-        "url": "http://example.com/fhir/example/StructureDefinition/FoodAllergy",
+        "url": "http://example.com/fhir/example/ImplementationGuide/my-ig/StructureDefinition/FoodAllergy",
         "title": "Food Allergy"
       }
     ]
@@ -40,12 +40,8 @@
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category": [
       "StructureDefinition"
     ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name": [
-      "ImplementationGuide.definition.page",
-      "ImplementationGuide.definition.page.page"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
-      "ImplementationGuide.definition"
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
+      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
