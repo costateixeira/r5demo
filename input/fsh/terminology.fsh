@@ -3,6 +3,7 @@ Alias: $SCT = http://snomed.info/sct
 ValueSet: FoodAllergyVS
 Title: "Food Allergies"
 Description:  "Main Food allergies."
+//* experimental = #true
 * $SCT#91935009 "Allergy to peanut"
 * $SCT#48821000119104 "Allergy to tree nut"
 * $SCT#782555009 "Allergy to cow's milk protein"
