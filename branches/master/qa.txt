@@ -1,12 +1,12 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 22, warn = 6, info = 0
-IG Publisher Version: 1.2.3
-Generated Mon Sep 26 20:13:04 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+err = 0, warn = 6, info = 0
+IG Publisher Version: 1.2.4
+Generated Mon Oct 03 18:18:17 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 22 / 1 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 0 / 2 / 1
@@ -16,28 +16,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 == fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
 WARNING: ImplementationGuide/my-ig: ImplementationGuide.url: Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[0].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[1].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[16].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[17].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[18].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[19].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[20].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[22].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[23].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[24].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[25].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[26].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[27].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[28].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[29].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[30].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[31].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[32].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[33].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[34].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[35].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
-ERROR: ImplementationGuide/my-ig: ImplementationGuide.definition.parameter[36].code: Unknown Code System 'http://hl7.org/fhir/tools/CodeSystem/ig-parameters'
 == fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
 WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[16]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
