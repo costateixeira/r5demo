@@ -1,25 +1,23 @@
 ﻿ExampleIG : Validation Results
 =========================================
 
-err = 0, warn = 6, info = 0
-IG Publisher Version: 1.2.4
-Generated Mon Oct 03 18:18:17 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
+err = 0, warn = 4, info = 0
+IG Publisher Version: 1.2.5
+Generated Sat Oct 08 07:02:16 UTC 2022. FHIR version 5.0.0-ballot for my-ig#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-my-ig : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-FoodAllergyVS : 0 / 1 / 1
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
 == fsh-generated/resources/ImplementationGuide-my-ig.json ==
-WARNING: ImplementationGuide/my-ig: ImplementationGuide.url: Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed
 == fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
 WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[16]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
 == fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
 == fsh-generated/resources/ValueSet-FoodAllergyVS.json ==
-WARNING: ValueSet/FoodAllergyVS: ValueSet.url: Rule cnl-1: 'URL should not contain | or # - these characters make processing canonical references problematic' Failed
 WARNING: ValueSet/FoodAllergyVS: ValueSet: The ShareableValueSet profile says that the experimental element is mandatory, but it is not present. Published value sets SHOULD conform to the ShareableValueSet profile
