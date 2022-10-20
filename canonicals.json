@@ -1,8 +1,8 @@
 [
   {
-    "id": "my-ig",
+    "id": "r5demo",
     "type": "ImplementationGuide",
-    "url": "http://example.com/fhir/example/ImplementationGuide/my-ig",
+    "url": "http://example.com/fhir/example/ImplementationGuide/r5demo",
     "version": "1.0.0",
     "name": "ExampleIG"
   },

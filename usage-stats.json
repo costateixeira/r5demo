@@ -1,5 +1,5 @@
 {
-  "package": "my-ig",
+  "package": "r5demo",
   "version": "1.0.0",
   "fhirVersion": "5.0.0-ballot",
   "jurisdiction": "001",
@@ -42,6 +42,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
