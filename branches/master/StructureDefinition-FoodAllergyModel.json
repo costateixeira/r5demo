@@ -10,7 +10,7 @@
   "name": "FoodAllergyModel",
   "title": "Food Allergy Logical Model",
   "status": "active",
-  "date": "2022-10-08T07:26:49+00:00",
+  "date": "2022-10-20T18:43:56+00:00",
   "publisher": "My Organization",
   "contact": [
     {
@@ -76,7 +76,23 @@
           "min": 0,
           "max": "*"
         },
-        "isModifier": false
+        "constraint": [
+          {
+            "key": "ele-1",
+            "severity": "error",
+            "human": "All FHIR elements must have a @value or children",
+            "expression": "hasValue() or (children().count() > id.count())",
+            "xpath": "@value|f:*|h:div",
+            "source": "http://hl7.org/fhir/StructureDefinition/Element"
+          }
+        ],
+        "isModifier": false,
+        "mapping": [
+          {
+            "identity": "rim",
+            "map": "n/a"
+          }
+        ]
       },
       {
         "id": "FoodAllergyModel.patient",
