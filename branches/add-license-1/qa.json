@@ -1,0 +1,12 @@
+{
+  "url": "http://example.com/fhir/example/ImplementationGuide/r5demo",
+  "name": "ExampleIG",
+  "package-id": "r5demo",
+  "ig-ver": "1.0.0",
+  "date": "Fri, 21 Oct, 2022 07:32:56 +0000",
+  "errs": 0,
+  "warnings": 7,
+  "hints": 0,
+  "version": "5.0.0-ballot",
+  "tool": "5.0.0-ballot (3)"
+}
