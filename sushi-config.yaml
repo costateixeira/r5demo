@@ -165,7 +165,8 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 #    Extensions: artifacts.html#3
 #    Value Sets: artifacts.html#4
 #  Downloads: downloads.html
-#  History: http://hl7.org/fhir/us/example/history.html
+#  History: http://hl7.org/fhir/us/example/history.html 
+
 
 # The parameters property represents IG.definition.parameter. Rather
 # than a list of code/value pairs (as in the ImplementationGuide
@@ -176,8 +177,8 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 parameters:
 #  excludettl: true
 #  validation: [allow-any-extensions, no-broken-links]
-  path-pages:
-    - ..
+#  path-pages:
+#    - ..
   
 # The FSHOnly flag indicates if only FSH resources should be exported.
 # If set to true, no IG related content will be generated.
