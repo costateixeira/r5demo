@@ -84,6 +84,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ActorDefinition"/>
+      </extension>
+      <reference>
+        <reference value="ActorDefinition/Actor1"/>
+      </reference>
+      <name value="Actor1"/>
+      <description value="Actor description text here&#xA;and here&#xA;* option 1&#xA;* option 2"/>
+      <isExample value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="AllergyIntolerance"/>
       </extension>
       <reference>
@@ -92,6 +103,17 @@
       <name value="PeanutAllergy"/>
       <profile value="http://example.com/fhir/example/StructureDefinition/FoodAllergy"/>
       <profile value="http://example.com/fhir/example/StructureDefinition/FoodAllergy"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Requirements"/>
+      </extension>
+      <reference>
+        <reference value="Requirements/Requirements1"/>
+      </reference>
+      <name value="Requirements1"/>
+      <description value="The requirements&#xA;* functional (these)&#xA;* technical (not here)&#xA;* others (where?)"/>
+      <isExample value="true"/>
     </resource>
     <page>
       <sourceUrl value="toc.html"/>

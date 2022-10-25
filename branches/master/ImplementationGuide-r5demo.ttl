@@ -115,6 +115,20 @@
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "ActorDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/ActorDefinition/Actor1>;
+         fhir:Reference.reference [ fhir:value "ActorDefinition/Actor1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Actor1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Actor description text here\nand here\n* option 1\n* option 2" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
          fhir:Extension.valueString [ fhir:value "AllergyIntolerance" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
@@ -131,6 +145,20 @@
          fhir:index 1;
          fhir:link <http://example.com/fhir/example/StructureDefinition/FoodAllergy>
        ]
+     ], [
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "Requirements" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://example.com/fhir/example/Requirements/Requirements1>;
+         fhir:Reference.reference [ fhir:value "Requirements/Requirements1" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Requirements1" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "The requirements\n* functional (these)\n* technical (not here)\n* others (where?)" ];
+       fhir:ImplementationGuide.definition.resource.isExample [ fhir:value "true"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:ImplementationGuide.definition.page.sourceUrl [ fhir:value "toc.html" ];
