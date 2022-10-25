@@ -3,27 +3,74 @@
 <Requirements xmlns="http://hl7.org/fhir">
   <id value="Requirements1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>These requirements apply to the actor <a href="ActorDefinition-Actor1.html">Actor 1</a></p><table class="grid"><tr><td><b><a name="r1.1"> </a></b>Req 1.1</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHALL">SHALL</a></td><td><div><p>You shall not pass!</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>These requirements apply to the actor <a href="ActorDefinition-Actor1.html">Actor 1</a></p><table class="grid"><tr><td><b><a name="r1.1"> </a></b>Req 1.1</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHALL">SHALL</a></td><td><div><p>Requirements SHALL contain (and should be seen here)</p>
 <ul>
-<li>here's a criteria</li>
+<li>url</li>
+<li>identifier</li>
+<li>version</li>
+<li><strong>name</strong></li>
+<li><strong>title</strong></li>
+<li><strong>status</strong></li>
+<li>experimental</li>
+<li>date</li>
+<li>publisher</li>
+<li>contact</li>
+<li><strong>description</strong></li>
+<li>jurisdiction</li>
+<li>purpose</li>
+<li>copyright</li>
+<li>copyrightLabel</li>
+<li>actor</li>
+<li><strong>statement[+]</strong>
+<ul>
+<li><strong>key</strong></li>
+<li><strong>label</strong></li>
+<li><strong>conformance</strong></li>
+<li><strong>requirement</strong></li>
+<li>derivedFrom</li>
 </ul>
-</div></td></tr><tr><td><b><a name="r1.2.1"> </a></b>Req 1.2.1</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>Should I stay</p>
-<blockquote>
-<p>me debo ir</p>
-</blockquote>
-</div></td></tr><tr><td><b><a name="r1.2.2"> </a></b>Req 1.2.2</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>or should I go</p>
-<blockquote>
-<p>o quedarme</p>
-</blockquote>
-<h4>The end</h4>
-</div></td></tr></table></div>
+</li>
+</ul>
+</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr><tr><td><b><a name="r1.2"> </a></b>Req 1.2</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>In addition to the above elements, requirements should contain (and are here)</p>
+<ul>
+<li><em>url</em></li>
+<li><em>identifier</em></li>
+<li>version</li>
+<li>name</li>
+<li>title</li>
+<li>status</li>
+<li><em>experimental</em></li>
+<li><em>date</em></li>
+<li><em>publisher</em></li>
+<li><em>contact</em></li>
+<li>description</li>
+<li><em>jurisdiction</em></li>
+<li><em>purpose</em></li>
+<li><em>copyright</em></li>
+<li><em>copyrightLabel</em></li>
+<li><em>actor</em></li>
+<li>statement[+]
+<ul>
+<li>key</li>
+<li>label</li>
+<li>conformance</li>
+<li>requirement</li>
+<li><em>derivedFrom</em></li>
+</ul>
+</li>
+</ul>
+</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr></table></div>
   </text>
-  <url value="http://example.org/fhir/requirements"/>
+  <url value="http://example.org/fhir/requirements1"/>
+  <identifier>
+    <value value="R1"/>
+  </identifier>
   <version value="1.0.0"/>
   <name value="FunctionalRequirements"/>
   <title value="Functional Requirements"/>
   <status value="draft"/>
-  <date value="2022-10-25T12:41:55+00:00"/>
+  <experimental value="false"/>
+  <date value="2022-12-12"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>
@@ -53,23 +100,21 @@
     </coding>
   </jurisdiction>
   <purpose value="For demonstrating the use of requirements&#xA;&gt; Rendering requirements in the IG is always good&#xA;#### header 4&#xA;text"/>
-  <actor value="http://example.com/fhir/example/ActorDefinition/Actor1"/>
+  <copyright value="You may copy this anytime."/>
+  <copyrightLabel value="Myself 2022"/>
+  <actor value="http://example.org/fhir/actor1"/>
   <statement>
     <key value="r1.1"/>
     <label value="Req 1.1"/>
     <conformance value="SHALL"/>
-    <requirement value="You shall not pass!&#xA;  * here's a criteria"/>
+    <requirement value="Requirements SHALL contain (and should be seen here)&#xA;* url&#xA;* identifier&#xA;* version&#xA;* **name**&#xA;* **title**&#xA;* **status**&#xA;* experimental&#xA;* date&#xA;* publisher&#xA;* contact&#xA;* **description**&#xA;* jurisdiction&#xA;* purpose&#xA;* copyright&#xA;* copyrightLabel&#xA;* actor&#xA;* **statement[+]**&#xA;  * **key**&#xA;  * **label**&#xA;  * **conformance**&#xA;  * **requirement**&#xA;  * derivedFrom&#xA;"/>
+    <derivedFrom value="Requirement1"/>
   </statement>
   <statement>
-    <key value="r1.2.1"/>
-    <label value="Req 1.2.1"/>
+    <key value="r1.2"/>
+    <label value="Req 1.2"/>
     <conformance value="SHOULD"/>
-    <requirement value="Should I stay&#xA;  &gt; me debo ir"/>
-  </statement>
-  <statement>
-    <key value="r1.2.2"/>
-    <label value="Req 1.2.2"/>
-    <conformance value="SHOULD"/>
-    <requirement value="or should I go&#xA;  &gt; o quedarme&#xA;#### The end&#xA;&#xA;&#xA;"/>
+    <requirement value="In addition to the above elements, requirements should contain (and are here)&#xA;* *url*&#xA;* *identifier*&#xA;* version&#xA;* name&#xA;* title&#xA;* status&#xA;* *experimental*&#xA;* *date*&#xA;* *publisher*&#xA;* *contact*&#xA;* description&#xA;* *jurisdiction*&#xA;* *purpose*&#xA;* *copyright*&#xA;* *copyrightLabel*&#xA;* *actor*&#xA;* statement[+]&#xA;  * key&#xA;  * label&#xA;  * conformance&#xA;  * requirement&#xA;  * *derivedFrom*"/>
+    <derivedFrom value="Requirement1"/>
   </statement>
 </Requirements>
