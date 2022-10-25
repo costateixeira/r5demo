@@ -3,14 +3,20 @@
   "id": "Requirements1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>These requirements apply to the actor <a href=\"ActorDefinition-Actor1.html\">Actor 1</a></p><table class=\"grid\"><tr><td><b><a name=\"r1.1\"> </a></b>Req 1.1</td><td><a href=\"http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>You shall not pass!</p>\n<ul>\n<li>here's a criteria</li>\n</ul>\n</div></td></tr><tr><td><b><a name=\"r1.2.1\"> </a></b>Req 1.2.1</td><td><a href=\"http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD\">SHOULD</a></td><td><div><p>Should I stay</p>\n<blockquote>\n<p>me debo ir</p>\n</blockquote>\n</div></td></tr><tr><td><b><a name=\"r1.2.2\"> </a></b>Req 1.2.2</td><td><a href=\"http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD\">SHOULD</a></td><td><div><p>or should I go</p>\n<blockquote>\n<p>o quedarme</p>\n</blockquote>\n<h4>The end</h4>\n</div></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>These requirements apply to the actor <a href=\"ActorDefinition-Actor1.html\">Actor 1</a></p><table class=\"grid\"><tr><td><b><a name=\"r1.1\"> </a></b>Req 1.1</td><td><a href=\"http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHALL\">SHALL</a></td><td><div><p>Requirements SHALL contain (and should be seen here)</p>\n<ul>\n<li>url</li>\n<li>identifier</li>\n<li>version</li>\n<li><strong>name</strong></li>\n<li><strong>title</strong></li>\n<li><strong>status</strong></li>\n<li>experimental</li>\n<li>date</li>\n<li>publisher</li>\n<li>contact</li>\n<li><strong>description</strong></li>\n<li>jurisdiction</li>\n<li>purpose</li>\n<li>copyright</li>\n<li>copyrightLabel</li>\n<li>actor</li>\n<li><strong>statement[+]</strong>\n<ul>\n<li><strong>key</strong></li>\n<li><strong>label</strong></li>\n<li><strong>conformance</strong></li>\n<li><strong>requirement</strong></li>\n<li>derivedFrom</li>\n</ul>\n</li>\n</ul>\n</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr><tr><td><b><a name=\"r1.2\"> </a></b>Req 1.2</td><td><a href=\"http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD\">SHOULD</a></td><td><div><p>In addition to the above elements, requirements should contain (and are here)</p>\n<ul>\n<li><em>url</em></li>\n<li><em>identifier</em></li>\n<li>version</li>\n<li>name</li>\n<li>title</li>\n<li>status</li>\n<li><em>experimental</em></li>\n<li><em>date</em></li>\n<li><em>publisher</em></li>\n<li><em>contact</em></li>\n<li>description</li>\n<li><em>jurisdiction</em></li>\n<li><em>purpose</em></li>\n<li><em>copyright</em></li>\n<li><em>copyrightLabel</em></li>\n<li><em>actor</em></li>\n<li>statement[+]\n<ul>\n<li>key</li>\n<li>label</li>\n<li>conformance</li>\n<li>requirement</li>\n<li><em>derivedFrom</em></li>\n</ul>\n</li>\n</ul>\n</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr></table></div>"
   },
-  "url": "http://example.org/fhir/requirements",
+  "url": "http://example.org/fhir/requirements1",
+  "identifier": [
+    {
+      "value": "R1"
+    }
+  ],
   "version": "1.0.0",
   "name": "FunctionalRequirements",
   "title": "Functional Requirements",
   "status": "draft",
-  "date": "2022-10-25T12:41:55+00:00",
+  "experimental": false,
+  "date": "2022-12-12",
   "publisher": "My Organization",
   "contact": [
     {
@@ -50,8 +56,10 @@
     }
   ],
   "purpose": "For demonstrating the use of requirements\n> Rendering requirements in the IG is always good\n#### header 4\ntext",
+  "copyright": "You may copy this anytime.",
+  "copyrightLabel": "Myself 2022",
   "actor": [
-    "http://example.com/fhir/example/ActorDefinition/Actor1"
+    "http://example.org/fhir/actor1"
   ],
   "statement": [
     {
@@ -60,23 +68,17 @@
       "conformance": [
         "SHALL"
       ],
-      "requirement": "You shall not pass!\n  * here's a criteria"
+      "requirement": "Requirements SHALL contain (and should be seen here)\n* url\n* identifier\n* version\n* **name**\n* **title**\n* **status**\n* experimental\n* date\n* publisher\n* contact\n* **description**\n* jurisdiction\n* purpose\n* copyright\n* copyrightLabel\n* actor\n* **statement[+]**\n  * **key**\n  * **label**\n  * **conformance**\n  * **requirement**\n  * derivedFrom\n",
+      "derivedFrom": "Requirement1"
     },
     {
-      "key": "r1.2.1",
-      "label": "Req 1.2.1",
+      "key": "r1.2",
+      "label": "Req 1.2",
       "conformance": [
         "SHOULD"
       ],
-      "requirement": "Should I stay\n  > me debo ir"
-    },
-    {
-      "key": "r1.2.2",
-      "label": "Req 1.2.2",
-      "conformance": [
-        "SHOULD"
-      ],
-      "requirement": "or should I go\n  > o quedarme\n#### The end\n\n\n"
+      "requirement": "In addition to the above elements, requirements should contain (and are here)\n* *url*\n* *identifier*\n* version\n* name\n* title\n* status\n* *experimental*\n* *date*\n* *publisher*\n* *contact*\n* description\n* *jurisdiction*\n* *purpose*\n* *copyright*\n* *copyrightLabel*\n* *actor*\n* statement[+]\n  * key\n  * label\n  * conformance\n  * requirement\n  * *derivedFrom*",
+      "derivedFrom": "Requirement1"
     }
   ]
 }
