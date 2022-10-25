@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "78ea2689-0a7c-470c-a4bf-5fcfed33ae28",
+  "id" : "838f92eb-12fe-4cfc-9fe0-1e84c06873bf",
   "meta" : {
-    "lastUpdated" : "2022-10-25T20:14:11.446+00:00"
+    "lastUpdated" : "2022-10-25T20:19:05.189+00:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "name" : "FoodAllergyVS",
       "title" : "Food Allergies",
       "status" : "active",
-      "date" : "2022-10-25T20:14:11+00:00",
+      "date" : "2022-10-25T20:19:05+00:00",
       "publisher" : "My Organization",
       "contact" : [{
         "name" : "My Organization",
@@ -49,8 +49,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:2622163b-8a9b-4c79-a004-3833f3ff99ea",
-        "timestamp" : "2022-10-25T20:14:25+00:00",
+        "identifier" : "urn:uuid:38a0182c-0e4b-4ca3-95b2-7db6ce692625",
+        "timestamp" : "2022-10-25T20:19:19+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",
