@@ -31,7 +31,7 @@
 </ul>
 </li>
 </ul>
-</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr><tr><td><b><a name="r1.2"> </a></b>Req 1.2</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>In addition to the above elements, requirements should contain (and are here)</p>
+</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr><tr><td><b><a name="r1.2"> </a></b>Req 1.2</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>In addition to the above elements, requirements should contain (and are here) - it may be longer than just the short text above. Long text will wrap to the width of the column.</p>
 <ul>
 <li><em>url</em></li>
 <li><em>identifier</em></li>
@@ -114,7 +114,7 @@
     <key value="r1.2"/>
     <label value="Req 1.2"/>
     <conformance value="SHOULD"/>
-    <requirement value="In addition to the above elements, requirements should contain (and are here)&#xA;* *url*&#xA;* *identifier*&#xA;* version&#xA;* name&#xA;* title&#xA;* status&#xA;* *experimental*&#xA;* *date*&#xA;* *publisher*&#xA;* *contact*&#xA;* description&#xA;* *jurisdiction*&#xA;* *purpose*&#xA;* *copyright*&#xA;* *copyrightLabel*&#xA;* *actor*&#xA;* statement[+]&#xA;  * key&#xA;  * label&#xA;  * conformance&#xA;  * requirement&#xA;  * *derivedFrom*"/>
+    <requirement value="In addition to the above elements, requirements should contain (and are here) - it may be longer than just the short text above. Long text will wrap to the width of the column.&#xA;* *url*&#xA;* *identifier*&#xA;* version&#xA;* name&#xA;* title&#xA;* status&#xA;* *experimental*&#xA;* *date*&#xA;* *publisher*&#xA;* *contact*&#xA;* description&#xA;* *jurisdiction*&#xA;* *purpose*&#xA;* *copyright*&#xA;* *copyrightLabel*&#xA;* *actor*&#xA;* statement[+]&#xA;  * key&#xA;  * label&#xA;  * conformance&#xA;  * requirement&#xA;  * *derivedFrom*"/>
     <derivedFrom value="Requirement1"/>
   </statement>
 </Requirements>
