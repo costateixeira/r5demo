@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Requirements xmlns="http://hl7.org/fhir">
+  <id value="Requirements1"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>These requirements apply to the actor <a href="ActorDefinition-Actor1.html">Actor 1</a></p><table class="grid"><tr><td><b><a name="r1.1"> </a></b>Req 1.1</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHALL">SHALL</a></td><td><div><p>You shall not pass!</p>
+<ul>
+<li>here's a criteria</li>
+</ul>
+</div></td></tr><tr><td><b><a name="r1.2.1"> </a></b>Req 1.2.1</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>Should I stay</p>
+<blockquote>
+<p>me debo ir</p>
+</blockquote>
+</div></td></tr><tr><td><b><a name="r1.2.2"> </a></b>Req 1.2.2</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>or should I go</p>
+<blockquote>
+<p>o quedarme</p>
+</blockquote>
+<h4>The end</h4>
+</div></td></tr></table></div>
+  </text>
+  <url value="http://example.org/fhir/requirements"/>
+  <version value="1.0.0"/>
+  <name value="FunctionalRequirements"/>
+  <title value="Functional Requirements"/>
+  <status value="draft"/>
+  <date value="2022-10-25T12:41:55+00:00"/>
+  <publisher value="My Organization"/>
+  <contact>
+    <name value="My Organization"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://example.com/committees"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="my-group@example.com"/>
+    </telecom>
+  </contact>
+  <contact>
+    <name value="Bob Smith"/>
+    <telecom>
+      <system value="email"/>
+      <value value="bobsmith@example.com"/>
+      <use value="work"/>
+    </telecom>
+  </contact>
+  <description value="The requirements&#xA;* functional (these)&#xA;* technical (not here)&#xA;* others (where?)"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="For demonstrating the use of requirements&#xA;&gt; Rendering requirements in the IG is always good&#xA;#### header 4&#xA;text"/>
+  <actor value="http://example.com/fhir/example/ActorDefinition/Actor1"/>
+  <statement>
+    <key value="r1.1"/>
+    <label value="Req 1.1"/>
+    <conformance value="SHALL"/>
+    <requirement value="You shall not pass!&#xA;  * here's a criteria"/>
+  </statement>
+  <statement>
+    <key value="r1.2.1"/>
+    <label value="Req 1.2.1"/>
+    <conformance value="SHOULD"/>
+    <requirement value="Should I stay&#xA;  &gt; me debo ir"/>
+  </statement>
+  <statement>
+    <key value="r1.2.2"/>
+    <label value="Req 1.2.2"/>
+    <conformance value="SHOULD"/>
+    <requirement value="or should I go&#xA;  &gt; o quedarme&#xA;#### The end&#xA;&#xA;&#xA;"/>
+  </statement>
+</Requirements>

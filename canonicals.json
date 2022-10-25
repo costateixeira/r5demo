@@ -1,5 +1,12 @@
 [
   {
+    "id": "Actor1",
+    "type": "ActorDefinition",
+    "url": "http://example.com/fhir/example/ActorDefinition/Actor1",
+    "version": "1.0.0",
+    "name": "Actor1"
+  },
+  {
     "id": "r5demo",
     "type": "ImplementationGuide",
     "url": "http://example.com/fhir/example/ImplementationGuide/r5demo",
@@ -26,5 +33,12 @@
     "url": "http://example.com/fhir/example/ValueSet/FoodAllergyVS",
     "version": "1.0.0",
     "name": "FoodAllergyVS"
+  },
+  {
+    "id": "Requirements1",
+    "type": "Requirements",
+    "url": "http://example.org/fhir/requirements",
+    "version": "1.0.0",
+    "name": "FunctionalRequirements"
   }
 ]

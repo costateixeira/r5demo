@@ -110,6 +110,20 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ActorDefinition"
+          }
+        ],
+        "reference": {
+          "reference": "ActorDefinition/Actor1"
+        },
+        "name": "Actor1",
+        "description": "Actor description text here\nand here\n* option 1\n* option 2",
+        "isExample": true
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "AllergyIntolerance"
           }
         ],
@@ -121,6 +135,20 @@
           "http://example.com/fhir/example/StructureDefinition/FoodAllergy",
           "http://example.com/fhir/example/StructureDefinition/FoodAllergy"
         ]
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Requirements"
+          }
+        ],
+        "reference": {
+          "reference": "Requirements/Requirements1"
+        },
+        "name": "Requirements1",
+        "description": "The requirements\n* functional (these)\n* technical (not here)\n* others (where?)",
+        "isExample": true
       }
     ],
     "page": {
