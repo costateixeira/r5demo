@@ -104,24 +104,24 @@ text
   * conformance = #SHALL
   * requirement = """
 Requirements SHALL contain (and should be seen here)
-* url
-* identifier
-* version
-* **name**
-* **title**
-* **status**
-* experimental
-* date
-* publisher
-* contact
-* **description**
-* jurisdiction
-* purpose
-* copyright
-* copyrightLabel
-* actor
-* **statement[+]**
-  * **key**
+* url (Not shown - in status table?)
+* identifier (Not shown?)
+* version (Not shown - in status table?)
+* **name** (Only in section header?)
+* **title** (Not shown?)
+* **status** (Not shown - in status table?)
+* experimental (Not shown - in status table?)
+* date (Not shown - in status table?)
+* publisher (Not shown - in status table?)
+* contact (Not shown?)
+* **description** (Not shown?)
+* jurisdiction (Not shown - in status table?)
+* purpose (Not shown?)
+* copyright (Not shown?)
+* copyrightLabel (Not shown?)
+* actor (in body)
+* **statement[+]** (as table - header missing?)
+  * **key** (Not shown?)
   * **label**
   * **conformance**
   * **requirement**
