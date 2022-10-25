@@ -137,7 +137,7 @@ Requirements SHALL contain (and should be seen here)
   * label = "Req 1.2"
   * conformance = #SHOULD
   * requirement = """
-In addition to the above elements, requirements should contain (and are here)
+In addition to the above elements, requirements should contain (and are here) - it may be longer than just the short text above. Long text will wrap to the width of the column.
 * *url*
 * *identifier*
 * version
