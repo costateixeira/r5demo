@@ -3,7 +3,7 @@
 
 err = 0, warn = 7, info = 0
 IG Publisher Version: 1.2.11
-Generated Wed Oct 26 19:07:56 UTC 2022. FHIR version 5.0.0-ballot for r5demo#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Wed Oct 26 19:16:38 UTC 2022. FHIR version 5.0.0-ballot for r5demo#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/ActorDefinition-Actor1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
