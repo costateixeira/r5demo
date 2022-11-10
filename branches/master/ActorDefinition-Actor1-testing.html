@@ -1,13 +1,9 @@
-<!-- get modelType -->
-
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>R5DEMO\ - FHIR v5.0.0-ballot</title>
+    <title>R5DEMO\Actor1 - Testing - FHIR v5.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"3.4"}
+    h3,h4,h5,h6{--heading-prefix:"3.4"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -122,7 +118,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Actor1</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -134,11 +130,9 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 6" class="col-12">
+<div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">HL7 FHIR R5 Implementation Guide - Local Development build (v1.0.0). See the <a href="http://example.com/fhir/example/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
-
-
 
 
 
@@ -151,63 +145,48 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-FoodAllergyModel.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-FoodAllergyModel-definitions.html">Detailed Descriptions</a>
+    <a href="ActorDefinition-Actor1.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="StructureDefinition-FoodAllergyModel-mappings.html">Mappings</a>
-    </li>
-  
-
-
-
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-FoodAllergyModel.profile.xml.html">XML</a>
+      <a href="ActorDefinition-Actor1.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-FoodAllergyModel.profile.json.html">JSON</a>
+      <a href="ActorDefinition-Actor1.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-FoodAllergyModel.profile.ttl.html">TTL</a>
+      <a href="ActorDefinition-Actor1.ttl.html">TTL</a>
     </li>
   
+
 
 
 </ul>
 
-
   <a name="root"> </a>
-  <h2 id="root">Logical Model: FoodAllergyModel - Examples</h2>
-  <table class="colsi">
+  <h2 id="root">ActorDefinition: Actor1 - Testing
+
+  </h2>
+
+  <table class="colsd">
     <tr>
 
       <td colspan="2">
         
-          Active
+          Draft
           
-            as of 2022-11-10
+            as of 2022-09-11
           
         
       </td>
@@ -216,14 +195,9 @@
   </table>
 
 
-   <!-- insert intro if present -->
-    
 
 
-
-
-
-  <p><b>No examples are currently available for the  Profile.</b></p>
+  <p><b>No TestScripts are currently available for the  ActorDefinition.</b></p>
 
 
 <!-- insert notes if present -->
@@ -231,8 +205,9 @@
 
 
 
-</div>
 
+
+</div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -240,29 +215,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
