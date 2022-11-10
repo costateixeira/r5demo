@@ -2,8 +2,8 @@
 =========================================
 
 err = 0, warn = 7, info = 0
-IG Publisher Version: 1.2.11
-Generated Wed Oct 26 19:16:38 UTC 2022. FHIR version 5.0.0-ballot for r5demo#1.0.0 (canonical = http://example.com/fhir/example)
+IG Publisher Version: 1.2.14
+Generated Thu Nov 10 23:21:43 UTC 2022. FHIR version 5.0.0-ballot for r5demo#1.0.0 (canonical = http://example.com/fhir/example)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/ActorDefinition-Actor1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
@@ -16,7 +16,7 @@ Generated Wed Oct 26 19:16:38 UTC 2022. FHIR version 5.0.0-ballot for r5demo#1.0
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
-WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ActorDefinition-Actor1.json ==
 == fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
