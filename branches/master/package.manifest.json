@@ -3,6 +3,6 @@
   "fhirVersion": [
     "5.0.0-ballot"
   ],
-  "date": "20221111074727",
-  "name": "medigree.fhir.r5demo"
+  "date": "20221111075712",
+  "name": "r5demo"
 }
