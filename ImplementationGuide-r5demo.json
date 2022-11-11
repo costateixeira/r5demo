@@ -3,9 +3,9 @@
   "id": "r5demo",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://medigree.github.io/r5demo/ImplementationGuide/r5demo</pre><div><p>Example IG for R5 content.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://medigree.github.io/r5demo/ImplementationGuide/r5demo</pre><div><p>Example IG for R5 content.</p>\n</div></div>"
   },
-  "url": "http://medigree.github.io/r5demo/ImplementationGuide/r5demo",
+  "url": "https://medigree.github.io/r5demo/ImplementationGuide/r5demo",
   "version": "1.0.0",
   "name": "ExampleIG",
   "title": "HL7 FHIR R5 Implementation Guide",
@@ -195,7 +195,7 @@
           },
           {
             "url": "value",
-            "valueString": "http://medigree.github.io/r5demo/history.html"
+            "valueString": "https://medigree.github.io/r5demo/history.html"
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -452,8 +452,8 @@
         },
         "name": "PeanutAllergy",
         "profile": [
-          "http://medigree.github.io/r5demo/StructureDefinition/FoodAllergy",
-          "http://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"
+          "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy",
+          "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"
         ]
       },
       {
@@ -665,7 +665,7 @@
           "system": "http://hl7.org/fhir/tools/CodeSystem/ig-parameters",
           "code": "path-history"
         },
-        "value": "http://medigree.github.io/r5demo/history.html"
+        "value": "https://medigree.github.io/r5demo/history.html"
       },
       {
         "code": {

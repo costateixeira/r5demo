@@ -7,7 +7,7 @@
   "profiles": {
     "AllergyIntolerance": [
       {
-        "url": "http://medigree.github.io/r5demo/StructureDefinition/FoodAllergy",
+        "url": "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy",
         "title": "Food Allergy"
       }
     ]
