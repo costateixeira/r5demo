@@ -1,11 +1,12 @@
 {
-    "package-id" : "medigree.fhir.r5demo",
+    "package-id" : "r5demo",
     "title" : "R5 Demo", 
     "category" : "something",
     "introduction" : "Just a demo",
     "version" : "1.0.0",
     "desc" : "First stable release",
-    "path" : "https://medigree.net/fhir/r5demo/1.0.0",
+    "descmd" : "@release1.0.0.md",
+    "path" : "https://medigree.github.io/r5demo/1.0.0",
     "status" : "release",
     "sequence" : "Releases",
     "milestone" : true
