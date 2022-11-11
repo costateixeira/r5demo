@@ -7,7 +7,7 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: medigree.fhir.r5demo
+id: r5demo
 canonical: http://medigree.github.io/r5demo
 #url: http://example.com/fhir/example/ImplementationGuide/my-ig
 name: ExampleIG
