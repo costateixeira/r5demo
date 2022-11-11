@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="r5demo"/>
+  <id value="medigree.fhir.r5demo"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.com/fhir/example/ImplementationGuide/r5demo</pre><div><p>Example IG for R5 content.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>http://medigree.github.io/r5demo/ImplementationGuide/medigree.fhir.r5demo</pre><div><p>Example IG for R5 content.</p>
 </div></div>
   </text>
-  <url value="http://example.com/fhir/example/ImplementationGuide/r5demo"/>
+  <url value="http://medigree.github.io/r5demo/ImplementationGuide/medigree.fhir.r5demo"/>
   <version value="1.0.0"/>
   <name value="ExampleIG"/>
   <title value="HL7 FHIR R5 Implementation Guide"/>
@@ -40,7 +40,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <packageId value="r5demo"/>
+  <packageId value="medigree.fhir.r5demo"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="5.0.0-ballot"/>
   <dependsOn id="hl7tx">
@@ -129,7 +129,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://example.com/fhir/example/history.html"/>
+        <valueString value="http://medigree.github.io/r5demo/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -296,8 +296,8 @@
         <reference value="AllergyIntolerance/MyPeanutAllergy"/>
       </reference>
       <name value="PeanutAllergy"/>
-      <profile value="http://example.com/fhir/example/StructureDefinition/FoodAllergy"/>
-      <profile value="http://example.com/fhir/example/StructureDefinition/FoodAllergy"/>
+      <profile value="http://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"/>
+      <profile value="http://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -501,7 +501,7 @@
         <system value="http://hl7.org/fhir/tools/CodeSystem/ig-parameters"/>
         <code value="path-history"/>
       </code>
-      <value value="http://example.com/fhir/example/history.html"/>
+      <value value="http://medigree.github.io/r5demo/history.html"/>
     </parameter>
     <parameter>
       <code>
