@@ -1,12 +1,12 @@
 {
   "resourceType" : "Bundle",
-  "id" : "b4e6afed-0206-4e3d-982a-ca3c9a17d4cc",
+  "id" : "9d1efa49-e1ba-4936-a124-d04dad4bdced",
   "meta" : {
-    "lastUpdated" : "2022-11-11T07:39:45.810+00:00"
+    "lastUpdated" : "2022-11-11T07:48:06.177+00:00"
   },
   "type" : "collection",
   "entry" : [{
-    "fullUrl" : "http://example.com/fhir/example/ValueSet/FoodAllergyVS",
+    "fullUrl" : "http://medigree.github.io/r5demo/ValueSet/FoodAllergyVS",
     "resource" : {
       "resourceType" : "ValueSet",
       "id" : "FoodAllergyVS",
@@ -14,12 +14,12 @@
         "status" : "generated",
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 11 concepts</p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 31-Jul 2022</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-91935009\"> </a>  <a href=\"http://snomed.info/id/91935009\">91935009</a></td><td>http://snomed.info/sct</td><td>Allergy to peanut</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-48821000119104\"> </a>  <a href=\"http://snomed.info/id/48821000119104\">48821000119104</a></td><td>http://snomed.info/sct</td><td>Allergy to tree nut</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782555009\"> </a>  <a href=\"http://snomed.info/id/782555009\">782555009</a></td><td>http://snomed.info/sct</td><td>Allergy to cow's milk protein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-213020009\"> </a>  <a href=\"http://snomed.info/id/213020009\">213020009</a></td><td>http://snomed.info/sct</td><td>Allergy to egg protein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-417532002\"> </a>  <a href=\"http://snomed.info/id/417532002\">417532002</a></td><td>http://snomed.info/sct</td><td>Allergy to fish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-300913006\"> </a>  <a href=\"http://snomed.info/id/300913006\">300913006</a></td><td>http://snomed.info/sct</td><td>Allergy to shellfish</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782594005\"> </a>  <a href=\"http://snomed.info/id/782594005\">782594005</a></td><td>http://snomed.info/sct</td><td>Allergy to soy protein</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-260167008\"> </a>  <a href=\"http://snomed.info/id/260167008\">260167008</a></td><td>http://snomed.info/sct</td><td>Sesame seed</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-21191000122102\"> </a>  <a href=\"http://snomed.info/id/21191000122102\">21191000122102</a></td><td>http://snomed.info/sct</td><td>Allergy to mustard</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-712843002\"> </a>  <a href=\"http://snomed.info/id/712843002\">712843002</a></td><td>http://snomed.info/sct</td><td>Allergy to celery</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-782575000\"> </a>  <a href=\"http://snomed.info/id/782575000\">782575000</a></td><td>http://snomed.info/sct</td><td>Allergy to lupine seed</td></tr></table></div>"
       },
-      "url" : "http://example.com/fhir/example/ValueSet/FoodAllergyVS",
+      "url" : "http://medigree.github.io/r5demo/ValueSet/FoodAllergyVS",
       "version" : "1.0.0",
       "name" : "FoodAllergyVS",
       "title" : "Food Allergies",
       "status" : "active",
-      "date" : "2022-11-11T07:39:45+00:00",
+      "date" : "2022-11-11T07:48:06+00:00",
       "publisher" : "My Organization",
       "contact" : [{
         "name" : "My Organization",
@@ -49,8 +49,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6885b050-a295-4ac0-8b66-f6e90a42d884",
-        "timestamp" : "2022-11-11T07:39:56+00:00",
+        "identifier" : "urn:uuid:c63109c2-dd96-40f2-9bd9-52e4bee07f7e",
+        "timestamp" : "2022-11-11T07:48:19+00:00",
         "total" : 11,
         "parameter" : [{
           "name" : "excludeNested",

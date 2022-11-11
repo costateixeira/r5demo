@@ -3,11 +3,11 @@
 
 err = 0, warn = 7, info = 0
 IG Publisher Version: 1.2.14
-Generated Fri Nov 11 07:40:11 UTC 2022. FHIR version 5.0.0-ballot for r5demo#1.0.0 (canonical = http://example.com/fhir/example)
+Generated Fri Nov 11 07:48:33 UTC 2022. FHIR version 5.0.0-ballot for medigree.fhir.r5demo#1.0.0 (canonical = http://medigree.github.io/r5demo)
  Build Errors : 0 / 4 / 0
  /github/workspace/fsh-generated/resources/ActorDefinition-Actor1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/ImplementationGuide-r5demo : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-medigree.fhir.r5demo : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Requirements-Requirements1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
@@ -20,7 +20,7 @@ WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-ta
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ActorDefinition-Actor1.json ==
 == fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
-== fsh-generated/resources/ImplementationGuide-r5demo.json ==
+== fsh-generated/resources/ImplementationGuide-medigree.fhir.r5demo.json ==
 == fsh-generated/resources/Requirements-Requirements1.json ==
 == fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
 WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[0]: Rule eld-27: 'Mappings SHOULD be unique by key' Failed
