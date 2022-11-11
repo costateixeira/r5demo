@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://medigree.github.io/r5demo/ActorDefinition/Actor1> a fhir:ActorDefinition;
+<https://medigree.github.io/r5demo/ActorDefinition/Actor1> a fhir:ActorDefinition;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Actor1"];
   fhir:DomainResource.text [
@@ -72,7 +72,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<http://medigree.github.io/r5demo/ActorDefinition/Actor1.ttl> a owl:Ontology;
+<https://medigree.github.io/r5demo/ActorDefinition/Actor1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------
