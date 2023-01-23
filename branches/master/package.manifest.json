@@ -1,8 +1,6 @@
 {
-  "version": "1.0.0",
-  "fhirVersion": [
-    "5.0.0-ballot"
-  ],
-  "date": "20221112103101",
-  "name": "r5demo"
+  "version" : "1.0.0",
+  "fhirVersion" : ["5.0.0-ballot"],
+  "date" : "20230123190051",
+  "name" : "r5demo"
 }
