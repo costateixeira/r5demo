@@ -23,12 +23,12 @@
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category">
     <valueCode value="patient"/>
   </extension>
-  <url value="https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"/>
+  <url value="http://medigree.net/fhir/r5demo/StructureDefinition/FoodAllergy"/>
   <version value="1.0.0"/>
   <name value="FoodAllergy"/>
   <title value="Food Allergy"/>
   <status value="active"/>
-  <date value="2023-01-23T19:20:09+00:00"/>
+  <date value="2023-01-23T19:27:14+00:00"/>
   <publisher value="My Organization"/>
   <contact>
     <name value="My Organization"/>
@@ -709,7 +709,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS"/>
+        <valueSet value="http://medigree.net/fhir/r5demo/ValueSet/FoodAllergyVS"/>
       </binding>
       <mapping>
         <identity value="w5"/>
@@ -1604,7 +1604,7 @@
       <mustSupport value="true"/>
       <binding>
         <strength value="extensible"/>
-        <valueSet value="https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS"/>
+        <valueSet value="http://medigree.net/fhir/r5demo/ValueSet/FoodAllergyVS"/>
       </binding>
     </element>
     <element id="AllergyIntolerance.patient">
