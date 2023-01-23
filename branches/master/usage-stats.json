@@ -1,5 +1,5 @@
 {
-  "package": "r5demo",
+  "package": "medigree.fhir.r5demo",
   "version": "1.0.0",
   "fhirVersion": "5.0.0-ballot",
   "jurisdiction": "001",
