@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="r5demo"/>
+  <id value="medigree.fhir.r5demo"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://medigree.github.io/r5demo/ImplementationGuide/r5demo</pre><div><p>Example IG for R5 content.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>ExampleIG</h2><p>The official URL for this implementation guide is: </p><pre>https://medigree.github.io/r5demo/ImplementationGuide/medigree.fhir.r5demo</pre><div><p>Example IG for R5 content.</p>
 </div></div>
   </text>
-  <url value="https://medigree.github.io/r5demo/ImplementationGuide/r5demo"/>
+  <url value="https://medigree.github.io/r5demo/ImplementationGuide/medigree.fhir.r5demo"/>
   <version value="1.0.0"/>
   <name value="ExampleIG"/>
   <title value="HL7 FHIR R5 Implementation Guide"/>
@@ -40,7 +40,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <packageId value="r5demo"/>
+  <packageId value="medigree.fhir.r5demo"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="5.0.0-ballot"/>
   <dependsOn id="hl7tx">

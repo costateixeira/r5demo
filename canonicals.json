@@ -14,9 +14,9 @@
     "name" : "FunctionalRequirements"
   },
   {
-    "id" : "r5demo",
+    "id" : "medigree.fhir.r5demo",
     "type" : "ImplementationGuide",
-    "url" : "https://medigree.github.io/r5demo/ImplementationGuide/r5demo",
+    "url" : "https://medigree.github.io/r5demo/ImplementationGuide/medigree.fhir.r5demo",
     "version" : "1.0.0",
     "name" : "ExampleIG"
   },
