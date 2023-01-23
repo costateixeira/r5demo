@@ -6,14 +6,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://medigree.github.io/r5demo/AllergyIntolerance/MyPeanutAllergy> a fhir:AllergyIntolerance;
+<http://medigree.net/fhir/r5demo/AllergyIntolerance/MyPeanutAllergy> a fhir:AllergyIntolerance;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "MyPeanutAllergy"]; # 
   fhir:Resource.meta [
      fhir:Meta.profile [
-       fhir:value "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy";
+       fhir:value "http://medigree.net/fhir/r5demo/StructureDefinition/FoodAllergy";
        fhir:index 0;
-       fhir:link <https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy>
+       fhir:link <http://medigree.net/fhir/r5demo/StructureDefinition/FoodAllergy>
      ]
   ]; # 
   fhir:DomainResource.text [
@@ -84,7 +84,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://medigree.github.io/r5demo/AllergyIntolerance/MyPeanutAllergy.ttl> a owl:Ontology;
+<http://medigree.net/fhir/r5demo/AllergyIntolerance/MyPeanutAllergy.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

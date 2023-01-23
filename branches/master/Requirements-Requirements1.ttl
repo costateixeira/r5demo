@@ -5,7 +5,7 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://medigree.github.io/r5demo/Requirements/Requirements1> a fhir:Requirements;
+<http://medigree.net/fhir/r5demo/Requirements/Requirements1> a fhir:Requirements;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Requirements1"]; # 
   fhir:DomainResource.text [
@@ -88,7 +88,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://medigree.github.io/r5demo/Requirements/Requirements1.ttl> a owl:Ontology;
+<http://medigree.net/fhir/r5demo/Requirements/Requirements1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

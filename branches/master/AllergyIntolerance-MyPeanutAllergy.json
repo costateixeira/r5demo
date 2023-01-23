@@ -2,7 +2,7 @@
   "resourceType" : "AllergyIntolerance",
   "id" : "MyPeanutAllergy",
   "meta" : {
-    "profile" : ["https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy"]
+    "profile" : ["http://medigree.net/fhir/r5demo/StructureDefinition/FoodAllergy"]
   },
   "text" : {
     "status" : "generated",

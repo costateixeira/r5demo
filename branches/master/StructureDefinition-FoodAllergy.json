@@ -13,12 +13,12 @@
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
     "valueCode" : "patient"
   }],
-  "url" : "https://medigree.github.io/r5demo/StructureDefinition/FoodAllergy",
+  "url" : "http://medigree.net/fhir/r5demo/StructureDefinition/FoodAllergy",
   "version" : "1.0.0",
   "name" : "FoodAllergy",
   "title" : "Food Allergy",
   "status" : "active",
-  "date" : "2023-01-23T19:20:09+00:00",
+  "date" : "2023-01-23T19:27:14+00:00",
   "publisher" : "My Organization",
   "contact" : [{
     "name" : "My Organization",
@@ -727,7 +727,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS"
+        "valueSet" : "http://medigree.net/fhir/r5demo/ValueSet/FoodAllergyVS"
       },
       "mapping" : [{
         "identity" : "w5",
@@ -1658,7 +1658,7 @@
       "mustSupport" : true,
       "binding" : {
         "strength" : "extensible",
-        "valueSet" : "https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS"
+        "valueSet" : "http://medigree.net/fhir/r5demo/ValueSet/FoodAllergyVS"
       }
     },
     {

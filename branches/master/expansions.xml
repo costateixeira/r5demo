@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="0e671987-2017-4a95-918b-e696b09cdbb8"/>
+  <id value="ebeca77b-6818-4539-a9f2-18efa0d5d1b6"/>
   <meta>
-    <lastUpdated value="2023-01-23T19:20:09.851+00:00"/>
+    <lastUpdated value="2023-01-23T19:27:14.817+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
-    <fullUrl value="https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS"/>
+    <fullUrl value="http://medigree.net/fhir/r5demo/ValueSet/FoodAllergyVS"/>
     <resource>
       <ValueSet>
         <id value="FoodAllergyVS"/>
@@ -119,12 +119,12 @@
             </table>
           </div>
         </text>
-        <url value="https://medigree.github.io/r5demo/ValueSet/FoodAllergyVS"/>
+        <url value="http://medigree.net/fhir/r5demo/ValueSet/FoodAllergyVS"/>
         <version value="1.0.0"/>
         <name value="FoodAllergyVS"/>
         <title value="Food Allergies"/>
         <status value="active"/>
-        <date value="2023-01-23T19:20:09+00:00"/>
+        <date value="2023-01-23T19:27:14+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -154,8 +154,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:95e3abee-40ee-4ae6-8e50-3d07d8fdec4f"/>
-          <timestamp value="2023-01-23T19:20:21+00:00"/>
+          <identifier value="urn:uuid:ad60dc78-101e-49f2-9638-3eda96d3a56d"/>
+          <timestamp value="2023-01-23T19:27:28+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
