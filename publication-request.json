@@ -7,7 +7,7 @@
     "desc" : "First stable release",
     "mode": "milestone",    
     "path" : "http://medigree.net/fhir/r5demo/1.0.0",
-    "ci-build": "https://build.fhir.org/ig/medigree/r5demo",    
+    "ci-build": "https//build.fhir.org/ig/medigree/r5demo",    
     "first": true,
     "status" : "release",
     "sequence" : "Releases"
