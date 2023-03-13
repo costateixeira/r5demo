@@ -22,4 +22,4 @@ jobs:
   call_build1: 
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@master
   call_build2: 
-    uses:costateixeira/testworkflows/.github/workflows/fhirBuild.yaml@master
+    uses: costateixeira/testworkflows/.github/workflows/fhirBuild.yaml@master
