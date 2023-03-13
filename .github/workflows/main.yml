@@ -25,8 +25,8 @@ env:
 jobs:
   # This workflow contains a single job called "build"
   call-gh-build: 
-    if: ${{ env.gh-build == 'true' }}
+#    if: ${{ env.gh-build == 'true' }}
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@master
   call-fhir-build: 
-    if: ${{ env.fhir-build == 'true' }}
+#    if: ${{ env.fhir-build == 'true' }}
     uses: costateixeira/testworkflows/.github/workflows/fhirBuild.yaml@master
