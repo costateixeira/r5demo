@@ -19,5 +19,7 @@ on:
 
 jobs:
   # This workflow contains a single job called "build"
-  call_build: 
+  call_build1: 
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@master
+  call_build2: 
+    uses:costateixeira/testworkflows/.github/workflows/fhirBuild.yaml@master
