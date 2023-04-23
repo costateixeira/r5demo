@@ -18,4 +18,3 @@ Kanban board:  __https://github.com/openhie/fhir-ig-empty/projects/1__
 
 ---
 
-
