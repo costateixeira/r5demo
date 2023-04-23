@@ -14,7 +14,7 @@ env:
   fhir_build: false
 
 jobs:
-  # This workflow contains two jobs: one to call the GH build, one to call the FHIR build
+  # This workflow contains two jobs: one to call the GH build, one to call the FHIR build.
   call-gh-build: 
     if: ${{ env.gh_build == 'true' }}
     uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
