@@ -20,5 +20,5 @@ jobs:
     uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
   call-fhir-build: 
     if: ${{ env.fhir_build == 'true' }}
-    uses: costateixeira/fhir-ig-actions/.github/workflows/fhir-ci-build.yaml@master
+    uses: costateixeira/fhir-ig-actions/.github/workflows/fhir-ci-build.yaml@main
 
