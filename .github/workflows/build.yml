@@ -10,6 +10,14 @@ on:
   workflow_dispatch:
 
 jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:   
+    - name: Debug clone URL
+      run: echo "Clone URL is: ${{ github.event.pull_request.head.repo.clone_url }}"
+
+
+
   call-gh-build:
     if: ${{ true }} # Update this hardcoded value to enable/disable GH build
     uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
