@@ -10,13 +10,14 @@ on:
   workflow_dispatch:
 
 env:
-  gh-build: false
-  fhir-build: true
+  gh_build: false
+  fhir_build: true
 
 jobs:
+  # This workflow contains two jobs: one to call the GH build, one to call the FHIR build
   call-gh-build: 
-    if: ${{ env.gh-build == 'true' }}
+    if: ${{ env.gh_build == 'true' }}
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@master
   call-fhir-build: 
-    if: ${{ env.fhir-build == 'true' }}
+    if: ${{ env.fhir_build == 'true' }}
     uses: costateixeira/testworkflows/.github/workflows/fhirBuild.yaml@master
