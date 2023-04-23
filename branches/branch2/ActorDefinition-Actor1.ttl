@@ -1,0 +1,63 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://medigree.net/fhir/r5demo/ActorDefinition/Actor1> a fhir:ActorDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Actor1"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table class=\"grid\"><tr><td><b>Actor: Actor1</b></td><td>Actor 1</td><td>Type: system</td><td colspan=\"2\"><a href=\"http://example.com\">http://example.com</a></td><td colspan=\"2\"><a href=\"http://example.org/fhirCapStatementActor1\">http://example.org/fhirCapStatementActor1</a></td></tr><tr><td colspan=\"3\"><div><p>This actor has</p>\n<ul>\n<li>url</li>\n<li>identifier.value</li>\n<li>version</li>\n<li>name</li>\n<li>title</li>\n<li>status</li>\n<li>experimental</li>\n<li>date</li>\n<li>publisher</li>\n<li>contact.name</li>\n<li>description</li>\n<li>jurisdiction</li>\n<li>purpose</li>\n<li>copyright</li>\n<li>copyrightLabel</li>\n<li>type</li>\n<li>documentation</li>\n<li>reference</li>\n<li>capabilities</li>\n</ul>\n</div></td></tr><tr><td>References:</td></tr><tr><td>Capabilities:</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://example.org/fhir/actor1"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:value [ fhir:v "A1" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "Actor1"] ; # 
+  fhir:title [ fhir:v "Actor 1"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2022-09-11"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "My Organization"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "My Organization" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://example.com/committees" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "my-group@example.com" ]
+     ] )
+  ] [
+     fhir:name [ fhir:v "Bob Smith" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "bobsmith@example.com" ] ;
+       fhir:use [ fhir:v "work" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Actor description text here\nand here\n* option 1\n* option 2"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "For demonstrating the use of actor definitions.  \nThis actor participates in the following use cases:\n* use case 2\n* use case 5"] ; # 
+  fhir:copyright [ fhir:v "You may copy this anytime."] ; # 
+  fhir:copyrightLabel [ fhir:v "Myself 2022"] ; # 
+  fhir:type [ fhir:v "system"] ; # 
+  fhir:documentation [ fhir:v "This actor has\n* url\n* identifier.value\n* version\n* name\n* title\n* status\n* experimental\n* date\n* publisher\n* contact.name\n* description\n* jurisdiction\n* purpose\n* copyright\n* copyrightLabel\n* type\n* documentation\n* reference\n* capabilities\n"] ; # 
+  fhir:reference ( [ fhir:v "http://example.com"^^xsd:anyURI] ) ; # 
+  fhir:capabilities [
+     fhir:v "http://example.org/fhirCapStatementActor1"^^xsd:anyURI ;
+     fhir:link <http://example.org/fhirCapStatementActor1>
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+
