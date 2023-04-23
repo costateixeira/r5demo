@@ -3,7 +3,7 @@
   "name" : "ExampleIG",
   "package-id" : "medigree.fhir.r5demo",
   "ig-ver" : "1.0.0",
-  "date" : "Sun, 23 Apr, 2023 16:45:24 +0000",
+  "date" : "Sun, 23 Apr, 2023 16:46:24 +0000",
   "errs" : 0,
   "warnings" : 5,
   "hints" : 0,
