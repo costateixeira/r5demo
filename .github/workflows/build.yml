@@ -10,12 +10,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: GH build
-        if: ${{ true }} # Update this hardcoded value to enable/disable GH build
-        uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
-      - name: FHIR build
-        if: ${{ false }} # Update this hardcoded value to enable/disable FHIR build
-        uses: costateixeira/fhir-ig-actions/.github/workflows/fhir-ci-build.yaml@main
+  call-gh-build:
+    if: ${{ true }} # Update this hardcoded value to enable/disable GH build
+    uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
+  call-fhir-build:
+    if: ${{ false }} # Update this hardcoded value to enable/disable FHIR build
+    uses: costateixeira/fhir-ig-actions/.github/workflows/fhir-ci-build.yaml@main
