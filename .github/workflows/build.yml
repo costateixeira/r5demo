@@ -11,7 +11,7 @@ on:
 
 env:
   gh_build: true
-  fhir_build: true
+  fhir_build: false
 
 jobs:
   # This workflow contains two jobs: one to call the GH build, one to call the FHIR build
