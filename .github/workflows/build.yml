@@ -8,27 +8,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  get-content-url:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Set current ref name (branch or tag)
-        id: set-ref-name
-        run: |
-          if [[ $GITHUB_REF == refs/heads/* ]]; then
-            REF_NAME="tree/$(echo ${GITHUB_REF#refs/heads/})"
-          elif [[ $GITHUB_REF == refs/tags/* ]]; then
-            REF_NAME="tree/$(echo ${GITHUB_REF#refs/tags/})"
-          else
-            REF_NAME=""
-          fi
-          echo "REF_NAME=$REF_NAME" >> $GITHUB_ENV
-      - name: Get content URL
-        run: |
-          CONTENT_URL="https://github.com/${{ github.repository }}/${REF_NAME}"
-          echo "Content URL: $CONTENT_URL"
-
-
-
   call-gh-build:
     if: ${{ true }} # Update this hardcoded value to enable/disable GH build
     uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
