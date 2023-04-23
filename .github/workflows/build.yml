@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:   
     - name: Debug clone URL
-      run: echo "Clone URL is ${{ github.event.pull_request.head.repo.clone_url }}"
+      run: echo "Clone URL is ${{ github.event.repository.clone_url }}"
 
 
 
