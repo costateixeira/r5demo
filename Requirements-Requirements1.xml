@@ -3,7 +3,7 @@
 <Requirements xmlns="http://hl7.org/fhir">
   <id value="Requirements1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>These requirements apply to the actor <a href="ActorDefinition-Actor1.html">Actor 1</a></p><table class="grid"><tr><td><b><a name="r1.1"> </a></b>Req 1.1</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHALL">SHALL</a></td><td><div><p>Requirements SHALL contain (and should be seen here)</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>These requirements apply to the actor <a href="ActorDefinition-Actor1.html">Actor 1</a></p><table class="grid"><tr><td><b><a name="r1.1"> </a></b>Req 1.1</td><td><a href="http://hl7.org/fhir/R5/codesystem-conformance-expectation.html#conformance-expectation-SHALL">SHALL</a></td><td><div><p>Requirements SHALL contain (and should be seen here)</p>
 <ul>
 <li>url (Not shown - in status table?)</li>
 <li>identifier (Not shown?)</li>
@@ -31,7 +31,7 @@
 </ul>
 </li>
 </ul>
-</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr><tr><td><b><a name="r1.2"> </a></b>Req 1.2</td><td><a href="http://build.fhir.org/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>In addition to the above elements, requirements should contain (and are here) - it may be longer than just the short text above. Long text will wrap to the width of the column.</p>
+</div><p>Links:</p><ul><li>Derived From: <code>Requirement1</code></li></ul></td></tr><tr><td><b><a name="r1.2"> </a></b>Req 1.2</td><td><a href="http://hl7.org/fhir/R5/codesystem-conformance-expectation.html#conformance-expectation-SHOULD">SHOULD</a></td><td><div><p>In addition to the above elements, requirements should contain (and are here) - it may be longer than just the short text above. Long text will wrap to the width of the column.</p>
 <ul>
 <li><em>url</em></li>
 <li><em>identifier</em></li>

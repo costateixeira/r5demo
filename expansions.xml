@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="1368c8d2-dc9d-45b0-b90d-654de4ed4f07"/>
+  <id value="e179707a-fbdb-4428-8f7a-5293f02da5f5"/>
   <meta>
-    <lastUpdated value="2023-01-26T10:17:51.514+00:00"/>
+    <lastUpdated value="2023-04-23T16:18:55.075+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -15,7 +15,7 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 11 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2022</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2023</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -124,7 +124,7 @@
         <name value="FoodAllergyVS"/>
         <title value="Food Allergies"/>
         <status value="active"/>
-        <date value="2023-01-26T10:17:51+00:00"/>
+        <date value="2023-04-23T16:18:55+00:00"/>
         <publisher value="My Organization"/>
         <contact>
           <name value="My Organization"/>
@@ -154,8 +154,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:390201e8-1a6c-4859-948f-1275f9b11e34"/>
-          <timestamp value="2023-01-26T10:18:07+00:00"/>
+          <identifier value="urn:uuid:77568786-cc2b-49e5-9d4e-9e4a11a835b7"/>
+          <timestamp value="2023-04-23T16:19:16+00:00"/>
           <total value="11"/>
           <parameter>
             <name value="excludeNested"/>
@@ -167,7 +167,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20220731"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230131"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
