@@ -3,8 +3,8 @@
 
 err = 0, warn = 5, info = 0
 IG Publisher Version: 1.3.4
-Generated Sun Apr 23 16:53:15 UTC 2023. FHIR version 5.0.0 for medigree.fhir.r5demo#1.0.0 (canonical = http://medigree.net/fhir/r5demo)
- Build Errors : 0 / 4 / 0
+Generated Sun Apr 23 16:58:47 UTC 2023. FHIR version 5.0.0 for medigree.fhir.r5demo#1.0.0 (canonical = http://medigree.net/fhir/r5demo)
+ Build Errors : 45 / 4 / 0
  /github/workspace/fsh-generated/resources/ActorDefinition-Actor1 : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-medigree.fhir.r5demo : 0 / 0 / 1
@@ -15,6 +15,51 @@ Generated Sun Apr 23 16:53:15 UTC 2023. FHIR version 5.0.0 for medigree.fhir.r5d
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: /github/workspace/output/ActorDefinition-Actor1-testing.html#/html/body/div/div/div/div/div/p/a at Line 134, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ActorDefinition-Actor1.change.history.html#/html/body/div/div/div/div/div/p/a at Line 139, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ActorDefinition-Actor1.html#/html/body/div/div/div/div/div/p/a at Line 134, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ActorDefinition-Actor1.json.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ActorDefinition-Actor1.ttl.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ActorDefinition-Actor1.xml.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.change.history.html#/html/body/div/div/div/div/div/p/a at Line 139, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.html#/html/body/div/div/div/div/div/p/a at Line 134, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.json.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.ttl.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/AllergyIntolerance-MyPeanutAllergy.xml.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/Requirements-Requirements1-testing.html#/html/body/div/div/div/div/div/p/a at Line 134, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/Requirements-Requirements1.change.history.html#/html/body/div/div/div/div/div/p/a at Line 139, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/Requirements-Requirements1.html#/html/body/div/div/div/div/div/p/a at Line 134, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/Requirements-Requirements1.json.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/Requirements-Requirements1.ttl.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/Requirements-Requirements1.xml.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy-definitions.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy-examples.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy-mappings.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy-testing.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.history.html#/html/body/div/div/div/div/div/p/a at Line 139, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.json.html#/html/body/div/div/div/div/div/p/a at Line 142, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.ttl.html#/html/body/div/div/div/div/div/p/a at Line 142, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergy.profile.xml.html#/html/body/div/div/div/div/div/p/a at Line 142, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel-definitions.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel-examples.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel-mappings.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel-testing.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.html#/html/body/div/div/div/div/div/p/a at Line 138, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.history.html#/html/body/div/div/div/div/div/p/a at Line 139, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.json.html#/html/body/div/div/div/div/div/p/a at Line 142, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.ttl.html#/html/body/div/div/div/div/div/p/a at Line 142, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-FoodAllergyModel.profile.xml.html#/html/body/div/div/div/div/div/p/a at Line 142, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-FoodAllergyVS-testing.html#/html/body/div/div/div/div/div/p/a at Line 134, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-FoodAllergyVS.change.history.html#/html/body/div/div/div/div/div/p/a at Line 139, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-FoodAllergyVS.html#/html/body/div/div/div/div/div/p/a at Line 134, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-FoodAllergyVS.json.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-FoodAllergyVS.ttl.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-FoodAllergyVS.xml.html#/html/body/div/div/div/div/div/p/a at Line 136, column 240: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/div/div/p/a at Line 141, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/changes.html#/html/body/div/div/div/div/div/p/a at Line 141, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/div/div/p/a at Line 141, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/div/div/p/a at Line 141, column 242: The link '$CONTENT_URL' for "$CONTENT_URL" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
