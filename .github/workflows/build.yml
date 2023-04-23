@@ -1,7 +1,6 @@
 name: CI
 
 on:
-  # Triggers the workflow on push or pull request events for any main branch
   push:
     branches-ignore:    
       - 'gh-pages'
@@ -9,14 +8,6 @@ on:
   workflow_dispatch:
 
 jobs:
-  debug:
-    runs-on: ubuntu-latest
-    steps:   
-    - name: Debug clone URL
-      run: echo "Clone URL is ${{ github.event.repository.clone_url }}"
-
-
-
   call-gh-build:
     if: ${{ true }} # Update this hardcoded value to enable/disable GH build
     uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
