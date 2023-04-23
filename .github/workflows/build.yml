@@ -10,14 +10,14 @@ on:
   workflow_dispatch:
 
 env:
-  gh_build: false
-  fhir_build: true
+  gh_build: 'false'
+  fhir_build: 'true'
 
 jobs:
   # This workflow contains two jobs: one to call the GH build, one to call the FHIR build
   call-gh-build: 
-    if: ${{ fromJson(env.gh_build) }}
+    if: ${{ env.gh_build == 'true' }}
     uses: costateixeira/fhir-ig-actions/.github/workflows/gh-ci-build.yaml@main
   call-fhir-build: 
-    if: ${{ fromJson(env.fhir_build) }}
+    if: ${{ env.fhir_build == 'true' }}
     uses: costateixeira/fhir-ig-actions/.github/workflows/fhir-ci-build.yaml@main
