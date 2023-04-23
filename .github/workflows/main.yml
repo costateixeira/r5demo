@@ -1,10 +1,3 @@
-# This workflow reuses the openHIE GitHub action for building IGs
-# Initial idea by from Elliot Silver, available from: https://www.argentixinfo.com/archives/156
-# Change log:
-# v0.1.0
-# 2021-06-18: publish default branches to / , other branches branches/<branch>
-# 2021-11-26: reusable workflow
-
 name: CI
 
 # Controls when the action will run. 
@@ -16,17 +9,14 @@ on:
   pull_request:
   workflow_dispatch:
 
-
 env:
   gh-build: false
   fhir-build: true
 
-
 jobs:
-  # This workflow contains a single job called "build"
   call-gh-build: 
-#    if: ${{ env.gh-build == 'true' }}
+    if: ${{ env.gh-build == 'true' }}
     uses: openhie/empty-fhir-ig/.github/workflows/main.yml@master
   call-fhir-build: 
-#    if: ${{ env.fhir-build == 'true' }}
+    if: ${{ env.fhir-build == 'true' }}
     uses: costateixeira/testworkflows/.github/workflows/fhirBuild.yaml@master
